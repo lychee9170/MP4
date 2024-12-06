@@ -1,49 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>打草惊蛇 - 视频展示</title>
+    <title>打草惊蛇 - 文生视频展示</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            background: white;
-            padding: 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
         }
         h1 {
             text-align: center;
-            color: #333;
+            color: #4CAF50;
         }
         p {
-            margin: 10px 0;
-            text-align: justify;
+            line-height: 1.6;
         }
         video {
             display: block;
             margin: 20px auto;
-            max-width: 100%;
+            border: 2px solid #4CAF50;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>打草惊蛇 - 视频展示</h1>
-        <p><strong>成语释义：</strong>“打草惊蛇”原意是指农夫无意中打扰了隐藏在草丛中的蛇，用来比喻不慎行动让对方有所警觉。</p>
-        <p><strong>视频简介：</strong>以下视频生动再现了这个成语背后的情景。通过农夫挥动镰刀的动作，蛇被惊动并迅速逃离。</p>
-        <!-- 视频嵌入 -->
-        <video controls>
-            <source src="videos/dacaojingshe.mp4" type="video/mp4">
-            您的浏览器不支持HTML5视频标签。
+    <div class="content">
+        <h1>打草惊蛇</h1>
+        <p>拼音: <ruby>打草惊蛇<rt>dǎ cǎo jīng shé</rt></ruby></p>
+        <p>
+            "打草惊蛇"意指一个不经意的动作可能暴露潜在的隐患。以下展示的是该成语生成的文生视频。
+        </p>
+        <video controls width="640">
+            <source src="dacaojingshe.mp4" type="video/mp4">
+            您的浏览器不支持视频播放，请升级您的浏览器或尝试其他设备。
         </video>
+        <h2>视频描述</h2>
+        <ol>
+            <li>农夫走进宁静的草地。</li>
+            <li>突然，一条蛇受到惊吓从草丛中逃跑。</li>
+            <li>蛇迅速滑行，草丛摇晃，场景充满紧张气氛。</li>
+            <li>蛇最终逃入远处的密林，恢复平静。</li>
+        </ol>
+        <p>以上视频采用文生技术生成，展现了“打草惊蛇”的意境。</p>
     </div>
 </body>
 </html>
